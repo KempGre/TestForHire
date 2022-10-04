@@ -1,0 +1,10 @@
+SELECT product, category
+FROM table_product
+LEFT JOIN table_category
+ON category = name
+
+В данном случае product & category - названия столбцов.
+table_project - таблица с продуктами
+table_category - таблица с категориями
+category - названия столбца в таблице с продуктами. Обозначает наименование категории
+name - название столбца в таблице с категориями. Обозначает наименование категории
